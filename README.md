@@ -26,7 +26,7 @@ python img2cgar --width=100 --height=60
 弹窗选择图片及输出位置，输出文件名为*图片名_output.txt*  
 
 ## 示例  
-
+![image](https://github.com/InTereSTingHE/img2char/blob/main/pikachu.jpg)  
 ```bash
 python img2char --width=120 --height=60
 ``` 
