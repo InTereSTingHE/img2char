@@ -22,10 +22,12 @@ HEIGHT = args.height
 
 # 打开对话框选择图片
 IMG = askopenfilename(title='Select Image')
+(path, filename) = os.path.split(IMG)
+(img, ext) = os.path.splitext(filename) # 切割文件名
 
 # 打开对话框选择输出位置
 output_dir = askdirectory(title = 'Select Save Path')
-OUTPUT = os.path.join(output_dir, 'output.txt')
+OUTPUT = os.path.join(output_dir, img + '_output.txt')
 
 # 字符表
 ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
