@@ -23,4 +23,10 @@ python img2char --height=60
 python img2cgar --width=100 --height=60
 ```  
 ### 指定文件及输出路径  
-弹窗选择图片及输出位置，输出文件名为*图片名_output.txt*
+弹窗选择图片及输出位置，输出文件名为*图片名_output.txt*  
+
+## 示例  
+
+```bash
+python img2char --width=120 --height=60
+``` 
