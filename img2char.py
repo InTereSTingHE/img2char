@@ -9,8 +9,8 @@ import os
 
 #命令行输入参数处理
 parser = argparse.ArgumentParser()
-parser.add_argument('--width', type = int, default = 120) # 输出字符画宽
-parser.add_argument('--height', type = int, default = 80) # 输出字符画高
+parser.add_argument('--width', type = int, default = 120) # 字符画输出宽度
+parser.add_argument('--height', type = int, default = 80) # 字符画输出高度
 #parser.add_argument('file')     # 输入文件
 #parser.add_argument('-o', '--output')   # 输出文件
 
