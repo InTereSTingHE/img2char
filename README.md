@@ -10,7 +10,7 @@
 ```bash
 python img2char
 ```
-指定宽度高度  
+### 指定宽度高度  
 ```bash
 python img2char --width=100
 ```  
@@ -22,4 +22,5 @@ python img2char --height=60
 ```bash
 python img2cgar --width=100 --height=60
 ```  
+### 指定文件及输出路径  
 弹窗选择图片及输出位置，输出文件名为*图片名_output.txt*
